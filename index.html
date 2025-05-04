@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spinelli Wheel</title>
+    <link rel="stylesheet" href="css/style.css"> </head>
+<body>
+
+    <h1>Spinelli Wheel - Name Picker</h1>
+
+    <div class="spinelli-container">
+        <canvas id='spinelliCanvas' width='400' height='400'>
+            Canvas not supported, please use a modern browser.
+        </canvas>
+
+        <div class="controls">
+            <input type="text" id="nameInput" placeholder="Enter name to add">
+            <button id="addButton">Add Name</button>
+            <button id="removeButton">Remove Last Name</button>
+        </div>
+
+        <div class="spin-action">
+             <button id="spinButton">Spin!</button>
+        </div>
+
+        <div id="resultDisplay"></div>
+    </div>
+
+    <script src='js/Winwheel.min.js'></script>
+    <script src='js/script.js'></script>
+
+</body>
+</html>
